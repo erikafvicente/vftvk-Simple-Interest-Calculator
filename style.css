@@ -1,4 +1,36 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+    font-family:arial;
+    color:white;
+    /*To center the box, it adapts to display resize*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color:grey;
+    font-family:verdana
+}
+.maindiv {
+    background-color:white;
+    color: black;
+    width: 490px;
+    padding: 20px;
+    border-radius: 25px;
+    /*Align the text to the left (title and footer)*/
+    text-align: left;
+    /*The text in the example is bold text*/
+    font-weight: bold;
+}
 
+.maindiv table {
+    /*Add space between cells to look better*/
+    border-spacing: 10px;
+    /*Center the table inside the div*/
+    margin: 0 auto;
+}
 
+mark{
+    /*Set the color of the highlighted text to yellow*/
+    background-color:yellow;
+}
